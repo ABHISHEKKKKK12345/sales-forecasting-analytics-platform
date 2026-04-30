@@ -1,0 +1,40 @@
+MIT License
+
+Copyright (c) 2025 Abhishek
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+───────────────────────────────────────────────────────────────────────────────
+
+This license applies to all files in this repository, including:
+
+  src/sales_forecast_gui.py       (v1 — original release)
+  src/sales_forecast_gui_v2.py    (v2 — hardened & recommended)
+
+Third-party libraries used by this software are subject to their own licenses:
+
+  numpy          BSD 3-Clause    https://numpy.org/doc/stable/license.html
+  pandas         BSD 3-Clause    https://github.com/pandas-dev/pandas/blob/main/LICENSE
+  matplotlib     PSF/BSD         https://matplotlib.org/stable/users/project/license.html
+  seaborn        BSD 3-Clause    https://github.com/mwaskom/seaborn/blob/master/LICENSE.md
+  scipy          BSD 3-Clause    https://github.com/scipy/scipy/blob/main/LICENSE.txt
+  scikit-learn   BSD 3-Clause    https://github.com/scikit-learn/scikit-learn/blob/main/COPYING
+  openpyxl       MIT             https://github.com/theorchard/openpyxl/blob/master/LICENCE.rst
+  reportlab      BSD             https://www.reportlab.com/dev/opensource/rl-toolkit/
+  Pillow         HPND            https://github.com/python-pillow/Pillow/blob/main/LICENSE
