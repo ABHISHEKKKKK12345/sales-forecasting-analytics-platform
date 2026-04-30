@@ -443,9 +443,16 @@ See `LICENSE` in the repository root.
 
 ---
 
-## Author
+## 👨‍💼 Author
 
-**Abhishek**
+<div align="center">
+
+| Field | Detail |
+|---|---|
+| **Name** | [Abhishek](https://www.linkedin.com/in/abhishek-srivastava-1538461b1/) |
+| **Project** | Customer Churn Intelligence Platform |
+
+</div>
 
 ---
 
