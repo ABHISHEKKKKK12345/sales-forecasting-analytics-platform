@@ -1,0 +1,160 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Sales Forecasting & Automated Reporting System — .gitignore
+#  Covers: Python, virtual environments, generated reports, OS artefacts,
+#          IDE configs, PyInstaller builds, and temp chart files.
+# ─────────────────────────────────────────────────────────────────────────────
+
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist-info/
+MANIFEST
+
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+.python-version
+
+
+# ── Distribution / packaging ──────────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.whl
+*.tar.gz
+*.zip
+site-packages/
+
+
+# ── PyInstaller ───────────────────────────────────────────────────────────────
+# Spec files can be committed if you want reproducible builds;
+# remove the next line if so.
+*.spec
+__pycache__/
+*.manifest
+
+
+# ── Generated report output ───────────────────────────────────────────────────
+# The app writes reports to ~/SalesForecastReports by default.
+# Any local output folders are excluded here to avoid committing large files.
+SalesForecastReports/
+reports/
+output/
+outputs/
+
+# Report file types (PDF, Excel, JSON summaries)
+*.pdf
+*.xlsx
+*.xlsm
+*.xls
+*.json
+
+# Allow the README and any fixture JSON in tests/ to be tracked
+!README.md
+!tests/**/*.json
+
+
+# ── Temporary chart files ─────────────────────────────────────────────────────
+# The app writes chart PNGs to a tempdir (sf_charts_*).
+# Guard against any accidental inclusion.
+sf_charts_*/
+tmp_charts/
+*.png
+*.jpg
+*.jpeg
+
+# Allow assets/ images (icons, screenshots for README)
+!assets/
+!assets/**
+
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+
+# ── Testing & coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.coveragerc
+nosetests.xml
+test-results/
+
+
+# ── Type checkers & linters ───────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+
+
+# ── IDEs & editors ────────────────────────────────────────────────────────────
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Spyder
+.spyderproject.cfg
+.spyproject/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+
+# ── OS artefacts ──────────────────────────────────────────────────────────────
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+
+
+# ── Secrets & environment variables ──────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+secrets.py
+config_local.py
