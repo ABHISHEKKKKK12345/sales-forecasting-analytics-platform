@@ -92,11 +92,11 @@ your-repo/
 ├── .gitignore
 ├── LICENSE
 │
-├── experiments/                      ← development & test builds (optional)
-│   ├── sales_forecast_gui_v2_dev.py
-│   ├── sales_forecast_gui_v4_dev.py
-│   ├── sales_forecast_gui_v5_dev.py
-│   └── sales_forecast_gui_v6_dev.py
+├── experiments/                           ← development & test builds (optional)
+│   ├── forecasting_experimental_dev_v2.py
+│   ├── sales_forecast_gui_dev_v4.py
+│   ├── sales_forecast_gui_v1_dev_v5.py
+│   └── sales_forecast_gui_v2_dev_v6.py
 │
 └── src/
     ├── sales_forecast_gui_v1.py           ← v1 — original release
