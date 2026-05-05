@@ -1,0 +1,29 @@
+
+[forecast]
+horizon = 12
+confidence_level = 0.95
+seasonality_period = 12
+n_bootstrap = 300
+cv_folds = 3
+
+[models]
+arima = true
+exp_smoothing = true
+random_forest = true
+gradient_boosting = true
+ridge = true
+xgboost = true
+lightgbm = true
+prophet = true
+
+[prophet]
+changepoint_prior_scale = 0.05
+seasonality_mode = "additive"
+
+[report]
+company_name = "My Company"
+report_title = "Sales Forecasting & Demand Analysis Report"
+analyst_name = "Automated Analytics Engine"
+currency_symbol = "$"
+formats = ["pdf", "excel", "json"]
+output_path = "C:\Users\abhis\SalesForecastReports\sales_report"
