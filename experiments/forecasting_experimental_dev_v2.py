@@ -12,6 +12,18 @@ Version   : 2.0.0
 ═══════════════════════════════════════════════════════════════════════════════
 """
 
+"""
+Sales Forecasting System — Development Version
+
+Base System       : forecasting_experimental.py
+Development Type  : Pre-production
+Internal Version  : v2
+
+Description:
+This file is a development iteration of the experimental forecasting model.
+It is used for testing and enhancements and is not intended for production use.
+"""
+
 # ─── Standard library ─────────────────────────────────────────────────────────
 import io
 import json
