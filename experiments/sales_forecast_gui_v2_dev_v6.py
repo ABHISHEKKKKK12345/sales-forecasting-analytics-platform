@@ -227,6 +227,18 @@ v5 improvements (retained for reference):
 ───────────────────────────────────────────────────────────────────────────────
 """
 
+"""
+Sales Forecasting System — Development Version
+
+Base System       : sales_forecast_gui_v2.py
+Development Type  : Pre-production
+Internal Version  : v6
+
+Description:
+This file is a pre-production development version derived from v2.
+It includes iterative enhancements and testing changes.
+"""
+
 # ─── Standard library ─────────────────────────────────────────────────────────
 import io
 import json
