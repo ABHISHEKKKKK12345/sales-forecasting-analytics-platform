@@ -106,6 +106,18 @@ v5 improvements over v4 (production-hardening pass):
           level without a forward-reference issue (no behaviour change).
 """
 
+"""
+Sales Forecasting System — Development Version
+
+Base System       : sales_forecast_gui_v1.py
+Development Type  : Pre-production
+Internal Version  : v5
+
+Description:
+This file is a pre-production development version derived from v1.
+It contains intermediate changes and experimental improvements.
+"""
+
 # ─── Standard library ─────────────────────────────────────────────────────────
 import io
 import json
