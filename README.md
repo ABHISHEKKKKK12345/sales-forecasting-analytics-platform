@@ -683,7 +683,7 @@ pip show xgboost lightgbm prophet
 | | |
 |---|---|
 | **Name** | [Abhishek Srivastava](https://www.linkedin.com/in/abhishek-srivastava-1538461b1/) |
-| **Role** | Senior Consultant, EY |
+| **Role** | Business Analyst, EY |
 | **Connect** | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhishek_Srivastava-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishek-srivastava-1538461b1/) |
 
 </div>
