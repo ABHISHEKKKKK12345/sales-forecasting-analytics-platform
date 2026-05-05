@@ -92,12 +92,14 @@ your-repo/
 ├── .gitignore
 ├── LICENSE
 │
+├── experiments/                      ← development & test builds (optional)
+│
 └── src/
     ├── sales_forecast_gui_v1.py           ← v1 — original release
     ├── sales_forecast_gui_v2.py           ← v2 — hardened (recommended)
     └── forecasting_experimental.py        ← experimental — extended model suite
 ```
-
+> experiments/ contains development snapshots, intermediate builds, and test variants not intended for production use.
 ---
 
 ## Versions at a Glance
