@@ -6,7 +6,7 @@ Models  : ARIMA (MLE grid) · Holt-Winters (add/mul) · Random Forest
 Reports : Multi-page PDF · 9-sheet Excel workbook · JSON summary
 Author  : Abhishek
 ═══════════════════════════════════════════════════════════════════════════════
-v6.0 — FINAL PRODUCTION RELEASE (complete hardening & advanced features)
+v6 (development reference) 
 ───────────────────────────────────────────────────────────────────────────────
   [V6-1]  APP_VERSION / APP_TITLE updated to "6.0.0" / "v6".
 
