@@ -10,7 +10,7 @@ ML ensemble modelling, statistical rigour, and one-click PDF / Excel report gene
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-22863A?style=for-the-badge" alt="License"></a>
   <a href="https://pyinstaller.org/en/stable/"><img src="https://img.shields.io/badge/Build-PyInstaller-E8730A?style=for-the-badge" alt="PyInstaller"></a>
   <a href="https://docs.python.org/3/library/tkinter.html"><img src="https://img.shields.io/badge/GUI-tkinter%20Dark%20Theme-161B22?style=for-the-badge" alt="tkinter"></a>
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-6e7681?style=for-the-badge" alt="Platform">
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-6e7681?style=for-the-badge" alt="Platform"></a>
 </p>
 
 <p>
