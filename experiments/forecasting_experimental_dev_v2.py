@@ -1,5 +1,5 @@
 """
-Sales Forecasting & Automated Reporting System  v2.0
+Sales Forecasting & Automated Reporting System — Experimental Build (v2 reference)
 ═══════════════════════════════════════════════════════════════════════════════
 Models    : ARIMA (MLE grid) · Holt-Winters (add/mul) · Random Forest
             Gradient Boosting · Ridge Regression · XGBoost · LightGBM
