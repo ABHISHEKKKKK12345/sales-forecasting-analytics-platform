@@ -1,0 +1,41 @@
+# ============================================================
+#  Sales Forecasting & Automated Reporting System
+#  Extended Dependencies  —  Experimental Build
+# ============================================================
+#
+#  Install AFTER the core requirements:
+#    pip install -r requirements.txt
+#    pip install -r requirements_experimental.txt
+#
+#  All packages below are OPTIONAL at runtime — if a package
+#  is absent, the corresponding model is silently disabled
+#  and all other models continue to run normally.
+#
+#  Exception: tomli / tomli-w are required on Python < 3.11
+#  for TOML config read/write. Python 3.11+ ships tomllib in
+#  the standard library (read-only); tomli-w is still needed
+#  for writing config back to disk on all Python versions.
+# ============================================================
+
+# ── Extended Forecasting Models ──────────────────────────────
+
+# XGBoost — gradient boosting (optional model)
+xgboost>=1.7
+
+# LightGBM — gradient boosting, fast large-dataset variant (optional model)
+lightgbm>=3.3
+
+# Prophet — Meta's additive time-series model (optional model)
+# If install fails on Python 3.12+: pip install prophet --no-build-isolation
+# Apple Silicon: pip install lightgbm --prefer-binary
+prophet>=1.1
+
+# ── TOML Configuration Persistence ───────────────────────────
+
+# Required on Python < 3.11 for reading TOML config files.
+# Python 3.11+ has tomllib built in (stdlib) — tomli is still
+# installed as a no-op shim so the import fallback works cleanly.
+tomli>=2.0
+
+# Required on ALL Python versions for writing TOML config files.
+tomli-w>=1.0

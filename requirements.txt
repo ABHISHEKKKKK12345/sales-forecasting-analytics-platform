@@ -1,0 +1,34 @@
+# ============================================================
+#  Sales Forecasting & Automated Reporting System
+#  Core Dependencies  —  v1.0 / v2.0
+# ============================================================
+#
+#  Install:
+#    pip install -r requirements.txt
+#
+#  Python 3.9+ required.
+#  tkinter is NOT pip-installable; see README.md § tkinter Platform Notes.
+# ============================================================
+
+# ── Numerical / Data ─────────────────────────────────────────
+numpy>=1.24
+pandas>=1.5
+
+# ── Visualisation ────────────────────────────────────────────
+matplotlib>=3.6
+seaborn>=0.12
+
+# ── Statistical / Scientific ─────────────────────────────────
+scipy>=1.10
+
+# ── Machine Learning ─────────────────────────────────────────
+scikit-learn>=1.2
+
+# ── Excel Output ─────────────────────────────────────────────
+openpyxl>=3.1
+
+# ── PDF Report Generation ────────────────────────────────────
+reportlab>=4.0
+
+# ── Image Embedding (PDF charts, Excel charts) ───────────────
+pillow>=9.0
