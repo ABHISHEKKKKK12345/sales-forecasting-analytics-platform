@@ -103,7 +103,7 @@ your-repo/
     ├── sales_forecast_gui_v2.py           ← v2 — hardened (recommended)
     └── forecasting_experimental.py        ← experimental — extended model suite
 ```
-> experiments/ contains development snapshots, intermediate builds, and test variants not intended for production use.
+> experiments/ contains development snapshots, intermediate builds, and test variants that are not intended for production use.
 ---
 
 ## Versions at a Glance
