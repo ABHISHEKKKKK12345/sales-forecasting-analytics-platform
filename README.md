@@ -93,6 +93,10 @@ your-repo/
 ├── LICENSE
 │
 ├── experiments/                      ← development & test builds (optional)
+│   ├── sales_forecast_gui_v2_dev.py
+│   ├── sales_forecast_gui_v4_dev.py
+│   ├── sales_forecast_gui_v5_dev.py
+│   └── sales_forecast_gui_v6_dev.py
 │
 └── src/
     ├── sales_forecast_gui_v1.py           ← v1 — original release
