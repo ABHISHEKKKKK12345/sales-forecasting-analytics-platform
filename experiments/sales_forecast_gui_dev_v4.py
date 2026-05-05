@@ -30,6 +30,18 @@ v4 improvements over v3:
   [V4-20] Progress percentages are now monotonic (never go backwards)
 """
 
+"""
+Sales Forecasting System — Development Version
+
+Base System       : Independent (no direct equivalent in src)
+Development Type  : Experimental / Pre-production
+Internal Version  : v4
+
+Description:
+This file represents a standalone experimental development version.
+It does not directly correspond to any official version in src.
+"""
+
 # ─── Standard library ─────────────────────────────────────────────────────────
 import io
 import json
