@@ -424,9 +424,9 @@ formats        = ["pdf", "excel"]
 Three files are produced on every run:
 
 ```
-sales_forecast_20240115_143022.pdf
-sales_forecast_20240115_143022.xlsx
-sales_forecast_20240115_143022.json
+sales_forecast_20260115_143022.pdf
+sales_forecast_20260115_143022.xlsx
+sales_forecast_20260115_143022.json
 ```
 
 Application logs: `~/SalesForecastReports/sales_forecast.log` — 5 MB rotating, 3 backups.
